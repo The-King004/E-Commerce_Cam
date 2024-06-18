@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* relevons tous d'abord les couleurs */
+
+    /* the primary colors */
+    --primary-color: rgba(0, 0, 0, 1);
+    --secondary-color: rgba(237, 237, 237, 1);
+    --neutral-color: rgba(101, 101, 101, 1);
+
+    /* all color of icons */
+    --secondary-color: rgba(255, 255, 255, 1);
+
+    /* like */
+    --primary-like-color: rgba(0, 0, 0, 1);
+    --secondary-like-color: rgba(255, 0, 0, 1);
+
+    /* all color of the text */
+    --primary-text-color: rgba(255, 255, 255, 1);
+    --secondary-text-color: rgba(144, 144, 144, 1);
+    --ternery-text-color: rgba(0, 0, 0, 1);
+
+   /* all the colors of the different sections */
+
+   /* section 1 */
+   --section-one-bg: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+
+   /* section 2 */
+   --section-two-top-left-bg: rgba(255, 255, 255, 1);
+   --section-two-bottom-left-bg: rgba(237, 237, 237, 1);
+   --section-two-bottom-right-bg: rgba(53, 53, 53, 1);
+   --section-two-right-bg: rgba(237, 237, 237, 1);
+
+   /* section 3 */
+   --section-three-bg: rgba(250, 250, 250, 1);
+
+   /* section 4 */
+   --section-four-bg: linear-gradient(100.23deg, #2E2E2E 42.36%, #000000 98.65%);
+
+   /* section 5 */
+   --section-five-bg: rgba(0, 0, 0, 1);
+}
+
+* {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
